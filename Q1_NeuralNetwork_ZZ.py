@@ -42,7 +42,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_QUBITS = 7        # 7 kolona iz sedmorke -> 7 input parametara; 2^7 = 128 stanja  (default)
 N_NUMBERS = 7
 N_MAX = 39
@@ -241,7 +241,7 @@ redova: 4600 | seed: 39
 BEST hparam: nq= 7 | reps FM/Ans: 1 1 | ent: linear | cos(bias, freq_csv): 0.951157
 inputs (π-skala): (0.3433, 0.7474, 1.1585, 1.5756, 1.9892, 2.4074, 2.8166)
 n_weights: 14
-predikcija NEXT: (2, 6, 11, 14, 18, 21, 23)
+predikcija NEXT: (2, 6, x, y, z, 21, 23)
 """
 
 
